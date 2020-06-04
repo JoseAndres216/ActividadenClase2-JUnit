@@ -90,4 +90,8 @@ public class DList<T extends Comparable<T>> {
     public int len() {
         return this.len;
     }
+
+    public DNode getTail() {
+        return this.tail;
+    }
 }

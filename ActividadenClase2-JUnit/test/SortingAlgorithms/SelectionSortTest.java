@@ -44,13 +44,14 @@ public class SelectionSortTest {
         SelectionSort.sort(lista);
 
         Assert.assertEquals(lista.toString(), listaOrdenada.toString());
+
     }
 
     @Test
     public void emptyList() {
         this.configLists();
         SelectionSort.sort(new DList());
-    }  
+    }
 
     @Test
     public void nullList() {
@@ -58,4 +59,6 @@ public class SelectionSortTest {
         SelectionSort.sort(null);
 
     }
+
+
 }

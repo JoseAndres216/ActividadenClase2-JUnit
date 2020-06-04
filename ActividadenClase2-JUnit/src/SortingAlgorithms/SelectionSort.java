@@ -18,5 +18,6 @@ public class SelectionSort {
             }
             list.swap(first, smaller);
         }
+
     }
 }
