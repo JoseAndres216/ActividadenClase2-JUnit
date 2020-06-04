@@ -39,22 +39,4 @@ public class InsertionSort {
             }
         }
     }
-
-    public static void main(String[] args) {
-        DList<Integer> lista = new DList<>();
-        lista.appendLast(1);
-        lista.appendLast(4);
-        lista.appendLast(2);
-        lista.appendLast(3);
-        lista.appendLast(5);
-        lista.appendLast(15);
-        lista.appendLast(45);
-        lista.appendLast(24);
-        lista.appendLast(38);
-        lista.appendLast(56);
-
-
-        InsertionSort.sort(lista);
-        System.out.println(lista);
-    }
 }
