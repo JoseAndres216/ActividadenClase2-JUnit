@@ -1,5 +1,8 @@
 package SortingAlgorithms;
 
+import ActividadClase_2.DoublyLinkedList.DList;
+import ActividadClase_2.DoublyLinkedList.DNode;
+
 public class BubbleSort {
 
     public static void sort(DList lista) {

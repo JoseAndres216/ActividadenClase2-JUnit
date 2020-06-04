@@ -8,7 +8,11 @@ public class DList<T extends Comparable<T>> {
         this.head = this.tail = null;
         this.len = 0;
     }
-
+    public void swap(DNode<T> i, DNode<T> j) {
+        T temp = i.getData();
+        i.setData(j.getData());
+        j.setData(temp);
+    }
     public void Bubblesort() {
         for (DNode<T> i = this.head; i != null; i = i.getNext()) {
             for (DNode<T> j = this.head; j != null; j = j.getNext()) {
